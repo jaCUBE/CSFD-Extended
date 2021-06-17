@@ -49,6 +49,7 @@ export default class ImageFloatingPreview {
             'position': 'absolute',
             'left': x + 15,
             'top': y + 15,
+            'z-index':999,
         })
     }
 
